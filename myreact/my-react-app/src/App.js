@@ -2,7 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
+  if(1==1) return (
+    <div className="App">
+      <h1>Hello World!</h1>
+    </div>
+  );
+
+  if(1==2) return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
