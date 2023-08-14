@@ -1,7 +1,13 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Car from './Car.js';
 
+//const shoot = () => {
+//  alert("Great Shot!");
+//}
+
+/*
 class Car extends React.Component {
   constructor() {
     super();
@@ -11,6 +17,7 @@ class Car extends React.Component {
     return <h2>Hi, I am a {this.state.color}/{this.props.color} Car!</h2>;
   }
 }
+*/
 
 let myElement = (
   <table>
@@ -33,7 +40,7 @@ myElement = <h1>{(x) < 10 ? "Hello" : "Goodbye"}</h1>;
 //
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(<Car />);
+//root.render(<Car />);
 root.render(<Car color="[red: passed props val from parent to child component, via this.props.color in child compo]"/>);
 
 //root.render(myElement);
